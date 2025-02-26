@@ -6,10 +6,10 @@ const axios = require('axios');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const WEATHER_API_KEY = 'vO5nAe4x0yOoiH1nW5bZgNxbP1p30B9V'
-const GEOCODING_API_KEY = 'AIzaSyB61St_Fi80ickyVz4vXFH9XO5CrFY199w'
-const PLACES_API_KEY = 'AIzaSyAgeCw2-moZ0fbG0cDVSJLCfiHmIfIi-eQ'
-const URL = "mongodb+srv://zhun:M96UIA5bQTy0fYmk@sample.u32oi.mongodb.net/?retryWrites=true&w=majority&appName=Sample";
+const WEATHER_API_KEY = ''
+const GEOCODING_API_KEY = ''
+const PLACES_API_KEY = ''
+const URL = "";
 
 mongoose.connect(URL, {
   useNewUrlParser: true,
